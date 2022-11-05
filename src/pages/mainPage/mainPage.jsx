@@ -1,6 +1,6 @@
 import * as React from 'react';
-import banner from '../assets/Banner/banner.png';
-import group from '../assets/Banner/logo.png'
+import banner from '../../assets/Banner/banner.png';
+import group from '../../assets/Banner/logo.png'
 import './mainPage-style.css'
 export default function MainPage() {
     return(

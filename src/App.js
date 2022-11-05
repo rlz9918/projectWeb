@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import LabTabs from './components/common/navBar/navBar.jsx';
-import MainPage from './pages/mainPage';
+import MainPage from './pages/mainPage/mainPage';
 import WovenImageList from './components/common/galery/galery';
+import Footer from './pages/footer/footer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <LabTabs></LabTabs>
       <MainPage></MainPage>
       <WovenImageList></WovenImageList>
+      <Footer></Footer>
     </div>
   );
 }
