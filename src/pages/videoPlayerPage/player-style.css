@@ -1,0 +1,14 @@
+.main-player-container{
+    height: 50em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto 2em;
+}
+
+.player-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
