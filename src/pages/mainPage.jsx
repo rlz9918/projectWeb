@@ -11,9 +11,6 @@ export default function MainPage() {
             <div class='logo'>
                 <img src={`${group}`} alt="group" class='group' />
             </div>
-            <div>
-                limite
-            </div>
         </>
     );
 }
