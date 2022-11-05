@@ -1,0 +1,27 @@
+.lsologo{
+    width: 3em;
+    margin: 0 1em;
+}
+
+.MuiBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+}
+
+.navBar{
+    margin: 0 1em;
+}
+
+.MuiTab-root{
+    color: white !important;
+}
+.Mui-selected{
+    color: rgb(255, 213, 0) !important;
+}
+.MuiTabs-indicator{
+    background-color: rgb(255, 213, 0) !important;
+    height: 1 !important;
+}

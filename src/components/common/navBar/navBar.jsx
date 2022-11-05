@@ -5,6 +5,7 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import isoLogo from "../../../assets/Banner/Isologo.png"
+import "../navBar/navBar-style.css"
 // function TabPanel(props) {
 //   const { children, value, index, ...other } = props;
 
@@ -46,13 +47,14 @@ export default function BasicTabs() {
   };
 
   return (
-    <Box sx={{ width: '100%' }}>
+    <Box className="MuiBox" >
+      <img src={`${isoLogo}`} alt="lslogo" class="lsologo"/>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <img src={`${isoLogo}`} alt="lslogo" />
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+        <Tabs className="navBar"value={value} onChange={handleChange} aria-label="basic tabs example">
           <Tab label="Item One" {...a11yProps(0)} />
           <Tab label="Item Two" {...a11yProps(1)} />
           <Tab label="Item Three" {...a11yProps(2)} />
+          <Tab label="Item Four" {...a11yProps(3)} />
         </Tabs>
       </Box>
       {/* <TabPanel value={value} index={0}>

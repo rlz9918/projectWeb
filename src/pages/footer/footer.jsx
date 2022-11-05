@@ -10,7 +10,7 @@ export default function Footer() {
         <>
             <footer class='footer'>
                 <img src={`${newsLetter}`} alt='news-letter' class='newsLetter'></img>
-                <Typography>Accedé a mi contenido de news letter
+                <Typography className="footer-text">Accedé a mi contenido de news letter
                     para poder adquirir videos de lirics y canciones que no saque aún</Typography>
                 <Box
                     component="form"

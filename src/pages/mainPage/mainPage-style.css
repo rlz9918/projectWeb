@@ -1,14 +1,16 @@
 .banner-container{
-    position: relative;
     width: 100%
 }
 
 .banner{
+    position: relative;
     width: -webkit-fill-available;
+    z-index: -1;
 }
 
 .logo{
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 45%;
+    z-index: 1;
 }

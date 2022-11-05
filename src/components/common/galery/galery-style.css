@@ -1,6 +1,7 @@
 .container-img-list{
     display: flex;
     justify-content: center;
+    background-color: #121212;
 }
 
 .img-list{
