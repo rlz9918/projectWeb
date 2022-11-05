@@ -1,0 +1,14 @@
+.banner-container{
+    position: relative;
+    width: 100%
+}
+
+.banner{
+    width: -webkit-fill-available;
+}
+
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
