@@ -5,10 +5,10 @@ import Button from '@mui/material/Button';
 import './footer-style.css'
 import { Typography } from '@mui/material';
 import newsLetter from '../../assets/Banner/Newsletter.png'
-export default function Footer() {
+export default function Footer(props) {
     return (
         <>
-            <footer class='footer' id='newsLetter'>
+            <footer class='footer' id='newsLetter' ref={props.reference}>
                 <div class="footer-content-container">
                 <img src={`${newsLetter}`} alt='news-letter' class='newsLetter'></img>
                 <Typography className="footer-text">Accedé a mi contenido de news letter
