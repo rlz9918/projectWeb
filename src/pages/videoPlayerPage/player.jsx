@@ -8,7 +8,8 @@ export default function Player(props) {
         <ReactPlayer
           url="https://www.youtube.com/watch?v=ILND0weAVA8"
           className="react-player"
-          playing
+          playing={false}
+          controls={true}
           width="100%"
           height="100%"
         />

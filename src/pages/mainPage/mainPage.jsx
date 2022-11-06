@@ -6,11 +6,11 @@ export default function MainPage(props) {
     return(
         <>
             <div class='banner-container' id='inicio' ref={props.reference}>
-                <img src={`${banner}`} alt="banner" class='banner' />
+                <img src={`${banner}`} alt="banner" class='banner' loading='lazy'/>
             </div>
-            <div class='logo'>
+            {/* <div class='logo'>
                 <img src={`${group}`} alt="group" class='group' />
-            </div>
+            </div> */}
         </>
     );
 }
