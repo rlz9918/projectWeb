@@ -51,10 +51,10 @@ export default function BasicTabs() {
       <img src={`${isoLogo}`} alt="lslogo" class="lsologo"/>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs className="navBar"value={value} onChange={handleChange} aria-label="basic tabs example">
-          <Tab label="Inicio" {...a11yProps(0)} />
-          <Tab label="Galeria" {...a11yProps(1)} />
-          <Tab label="New" {...a11yProps(2)} />
-          <Tab label="News Letter" {...a11yProps(3)} />
+          <Tab href='#inicio' label="Item One" {...a11yProps(0)}></Tab>
+          <Tab href='#galery'label="Item Two" {...a11yProps(1)} />
+          <Tab href='#new'label="Item Three" {...a11yProps(2)} />
+          <Tab href='#newsLetter' label="Item Four" {...a11yProps(3)} />
         </Tabs>
       </Box>
       {/* <TabPanel value={value} index={0}>
