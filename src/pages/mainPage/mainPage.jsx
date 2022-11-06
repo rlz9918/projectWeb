@@ -5,7 +5,7 @@ import './mainPage-style.css'
 export default function MainPage() {
     return(
         <>
-            <div class='banner-container'>
+            <div class='banner-container' id='inicio'>
                 <img src={`${banner}`} alt="banner" class='banner' />
             </div>
             <div class='logo'>

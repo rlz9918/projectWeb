@@ -8,7 +8,7 @@ import newsLetter from '../../assets/Banner/Newsletter.png'
 export default function Footer() {
     return (
         <>
-            <footer class='footer'>
+            <footer class='footer' id='newsLetter'>
                 <img src={`${newsLetter}`} alt='news-letter' class='newsLetter'></img>
                 <Typography className="footer-text">Accedé a mi contenido de news letter
                     para poder adquirir videos de lirics y canciones que no saque aún</Typography>
