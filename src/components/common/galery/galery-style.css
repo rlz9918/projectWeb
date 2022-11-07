@@ -1,10 +1,18 @@
 .container-img-list{
     display: flex;
     justify-content: center;
-    background-color: #121212;
+    background-color: #212529;
 }
 
 .img-list{
     width: 80%;
     height: 45em;
+}
+ul::-webkit-scrollbar{
+    background: #212529;
+    width: 7px;
+}
+ul::-webkit-scrollbar-thumb{
+    background: #212529;
+    border-radius: 40px;
 }

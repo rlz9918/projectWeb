@@ -4,7 +4,7 @@
 
 .banner{
     position: relative;
-    width: -webkit-fill-available;
+    width: inherit;
     z-index: -1;
 }
 
