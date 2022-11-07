@@ -19,7 +19,6 @@
     display: flex;
     height: 60%;
     width: 80%;
-    /* background-color: green; */
     justify-content: center;
     flex-direction: column;
     gap: 4em;
