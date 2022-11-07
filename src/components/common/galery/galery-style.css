@@ -13,6 +13,6 @@ ul::-webkit-scrollbar{
     width: 7px;
 }
 ul::-webkit-scrollbar-thumb{
-    background: #212529;
+    background: #626363;
     border-radius: 40px;
 }
