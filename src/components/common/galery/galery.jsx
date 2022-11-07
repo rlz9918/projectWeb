@@ -2,9 +2,16 @@ import * as React from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import './galery-style.css'
-export default function WovenImageList() {
+import igPost1 from "../../../assets/Banner/InstagramPost_1.png"
+import igPost2 from "../../../assets/Banner/InstagramPost_2.png"
+import igPost3 from "../../../assets/Banner/InstagramPost_3.png"
+import igPost4 from "../../../assets/Banner/InstagramPost_4.png"
+import igPost5 from "../../../assets/Banner/InstagramPost_5.png"
+import igPost6 from "../../../assets/Banner/InstagramPost_6.png"
+export default function WovenImageList(props) {
+  
   return (
-    <div class='container-img-list'>
+    <div class='container-img-list' id='galery' ref={props.reference}>
     <ImageList sx={{ width: '80%', height: '45em' }} variant="woven" cols={3} gap={8}>
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
@@ -23,27 +30,27 @@ export default function WovenImageList() {
 
 const itemData = [
   {
-    img: 'https://images.unsplash.com/photo-1549388604-817d15aa0110',
+    img: igPost1,
     title: 'Bed',
   },
   {
-    img: 'https://images.unsplash.com/photo-1563298723-dcfebaa392e3',
+    img: igPost2,
     title: 'Kitchen',
   },
   {
-    img: 'https://images.unsplash.com/photo-1523413651479-597eb2da0ad6',
+    img: igPost3,
     title: 'Sink',
   },
   {
-    img: 'https://images.unsplash.com/photo-1525097487452-6278ff080c31',
+    img: igPost4,
     title: 'Books',
   },
   {
-    img: 'https://images.unsplash.com/photo-1574180045827-681f8a1a9622',
+    img: igPost5,
     title: 'Chairs',
   },
   {
-    img: 'https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62',
+    img: igPost6,
     title: 'Candle',
   },
   {
