@@ -2,12 +2,15 @@ import * as React from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import './galery-style.css'
-import igPost1 from "../../../assets/Banner/InstagramPost_1.png"
-import igPost2 from "../../../assets/Banner/InstagramPost_2.png"
-import igPost3 from "../../../assets/Banner/InstagramPost_3.png"
-import igPost4 from "../../../assets/Banner/InstagramPost_4.png"
-import igPost5 from "../../../assets/Banner/InstagramPost_5.png"
-import igPost6 from "../../../assets/Banner/InstagramPost_6.png"
+import igPost1 from "../../../assets/Banner/Album_Por_un_momento.png"
+import igPost2 from "../../../assets/Banner/Album_karma.png"
+import igPost3 from "../../../assets/Banner/Album_Pronto_lo_entenderas.png"
+import igPost4 from "../../../assets/Banner/InstagramPost_12.png"
+import igPost5 from "../../../assets/Banner/Album_I_Need_A_Change.png"
+import igPost6 from "../../../assets/Banner/InstagramPost_10.png"
+import igPost7 from "../../../assets/Banner/Album_A_mi_lado.png"
+import igPost8 from "../../../assets/Banner/Album_Desiguales.png"
+import igPost9 from "../../../assets/Banner/Album_Por_un_momento(1).png"
 export default function WovenImageList(props) {
   
   return (
@@ -30,8 +33,9 @@ export default function WovenImageList(props) {
 
 const itemData = [
   {
-    img: igPost1,
+    img: igPost1 ,
     title: 'Bed',
+
   },
   {
     img: igPost2,
@@ -54,27 +58,16 @@ const itemData = [
     title: 'Candle',
   },
   {
-    img: 'https://images.unsplash.com/photo-1530731141654-5993c3016c77',
+    img: igPost7,
     title: 'Laptop',
   },
   {
-    img: 'https://images.unsplash.com/photo-1481277542470-605612bd2d61',
+    img: igPost8,
     title: 'Doors',
   },
   {
-    img: 'https://images.unsplash.com/photo-1517487881594-2787fef5ebf7',
+    img: igPost9,
     title: 'Coffee',
   },
-  {
-    img: 'https://images.unsplash.com/photo-1516455207990-7a41ce80f7ee',
-    title: 'Storage',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1519710164239-da123dc03ef4',
-    title: 'Coffee table',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1588436706487-9d55d73a39e3',
-    title: 'Blinds',
-  },
+  
 ];

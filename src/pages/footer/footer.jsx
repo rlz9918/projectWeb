@@ -7,6 +7,7 @@ import { Typography } from '@mui/material';
 import newsLetter from '../../assets/Banner/Newsletter.png'
 import emailjs from '@emailjs/browser'
 import toast,{ Toaster } from "react-hot-toast";
+import spotify from '../../assets/Banner/spotify.png'
 export default function Footer(props) {
     const [name, setName] = React.useState('');
     const form = React.useRef();
@@ -51,6 +52,7 @@ export default function Footer(props) {
                 </Box>
                 </div>
                 </div>
+                <div class="links-container"><a><link rel="stylesheet" href="https://open.spotify.com/artist/5B5XqL4rO1jF2Y76LC0E7P" /><img src={spotify} alt= "Spotify" /></a></div>
             </footer>
         </>
     );
