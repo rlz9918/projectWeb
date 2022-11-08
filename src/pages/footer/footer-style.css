@@ -5,6 +5,7 @@
     background-color: #212529;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .newsLetter{
@@ -19,7 +20,6 @@
     display: flex;
     height: 60%;
     width: 80%;
-    /* background-color: green; */
     justify-content: center;
     flex-direction: column;
     gap: 4em;
@@ -46,3 +46,16 @@
 .MuiButtonBase:hover{
     background-color: rgb(255, 213, 0) !important;
 }
+.links-container{
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    gap: 2em;
+    height: 10%;
+    filter: drop-shadow(
+        1px 1px 4px
+        #f7f7f7
+    );
+}
+

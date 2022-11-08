@@ -1,0 +1,27 @@
+.lsologo{
+    width: 3em;
+    margin: 0 1em;
+}
+
+.btn-menu{
+    color: white !important;
+    justify-content: flex-start !important;
+}
+
+.MuiList-root{
+    background-color: #212529 !important;
+}
+
+.MuiButton{
+    margin: 0.5em;
+}
+
+.MuiButton:hover, .btn-menu:hover{
+    color: rgb(255, 213, 0) !important;
+    background-color: rgb(255, 213, 0, 0.15) !important;
+}
+
+.AppBar{
+    position: sticky;
+    background-color: #212529 !important;
+}
