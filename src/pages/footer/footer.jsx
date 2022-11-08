@@ -40,12 +40,9 @@ export default function Footer(props) {
                 <img src={`${newsLetter}`} alt='news-letter' class='newsLetter'></img>
                 <Typography className="footer-text">Accedé a mi contenido de news letter
                     para poder adquirir videos de lirics y canciones que no saque aún</Typography>
-                <div class="form-container">
+                
                 <Box
                     component="form"
-                    sx={{
-                        '& > :not(style)': { m: 1},
-                    }}
                     noValidate
                     autoComplete="off"
                     onSubmit={sendEmail}
@@ -56,7 +53,7 @@ export default function Footer(props) {
                     <Button type="submit "className='MuiButtonBase' variant="outlined">Enviar</Button>
                 </Box>
                 </div>
-                </div>
+                
                 <div class="links-container">
                     <a href="https://open.spotify.com/artist/5B5XqL4rO1jF2Y76LC0E7P"><img src={Spotify} alt= "Spotify" width={50}/></a>
                     <a href="https://www.facebook.com/profile.php?id=100087363105854"><img src={Facebook} alt= "Facebook" width={50}/></a>
