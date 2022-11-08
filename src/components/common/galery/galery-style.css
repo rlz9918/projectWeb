@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     background-color: #212529;
-    height: 50em;
-    width: 50em;
+    height: 60em;
+    width: 80%;
     margin: auto;
 }
 
@@ -20,4 +20,11 @@ ul::-webkit-scrollbar{
 ul::-webkit-scrollbar-thumb{
     background: #626363;
     border-radius: 40px;
+}
+
+@media screen and (max-width: 768px){
+    .container-img-list{
+        width: auto;
+        height: auto;
+    }
 }
