@@ -55,3 +55,12 @@
     height: 10%;
 }
 
+@media screen and (max-width: 768px){
+    .MuiButtonBase{
+        width: 100%;
+    }
+
+    .text-field{
+        width: 100%;
+    }
+}

@@ -44,14 +44,14 @@ export default function Footer(props) {
                 <Box
                     component="form"
                     sx={{
-                        '& > :not(style)': { m: 1, width: '35ch'},
+                        '& > :not(style)': { m: 1},
                     }}
                     noValidate
                     autoComplete="off"
                     onSubmit={sendEmail}
                     ref={form}
                 >
-                    <TextField type="text" id="outlined-basic" label="Email" variant="outlined" name="to_person" value={name} onChange={handleChange} required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Please enter a valid email address"/>
+                    <TextField className='text-field' type="text" id="outlined-basic" label="Email" variant="outlined" name="to_person" value={name} onChange={handleChange} required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Please enter a valid email address"/>
                     <Button type="submit "className='MuiButtonBase' variant="outlined">Enviar</Button>
                 </Box>
                 </div>
