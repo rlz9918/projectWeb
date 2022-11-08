@@ -7,7 +7,11 @@ import { Typography } from '@mui/material';
 import newsLetter from '../../assets/Banner/Newsletter.png'
 import emailjs from '@emailjs/browser'
 import toast,{ Toaster } from "react-hot-toast";
-import spotify from '../../assets/Banner/spotify.png'
+import Spotify from '../../assets/Banner/spotify.png'
+import Facebook from '../../assets/Banner/facebook.png'
+import Instagram from '../../assets/Banner/instagram.png'
+import Youtube from '../../assets/Banner/youtube.png'
+import TikTok from '../../assets/Banner/tik-tok.png'
 export default function Footer(props) {
     const [name, setName] = React.useState('');
     const form = React.useRef();
@@ -52,6 +56,13 @@ export default function Footer(props) {
                     <Button type="submit "className='MuiButtonBase' variant="outlined">Enviar</Button>
                 </Box>
                 </div>
+                </div>
+                <div class="links-container">
+                    <a href="https://open.spotify.com/artist/5B5XqL4rO1jF2Y76LC0E7P"><img src={Spotify} alt= "Spotify" width={50}/></a>
+                    <a href="https://www.facebook.com/profile.php?id=100087363105854"><img src={Facebook} alt= "Facebook" width={50}/></a>
+                    <a href="https://www.instagram.com/restdeep.pf/"><img src={Instagram} alt= "Instagram" width={50}/></a>
+                    <a href="https://www.youtube.com/c/RestDeep"><img src={Youtube} alt= "Youtube" width={50}/></a>
+                    <a href="https://www.tiktok.com/@restdeeppf?lang=es"><img src={TikTok} alt= "TikTok" width={50}/></a>
                 </div>
             </footer>
         </>

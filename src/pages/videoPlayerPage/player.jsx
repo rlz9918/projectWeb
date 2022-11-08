@@ -6,7 +6,7 @@ export default function Player(props) {
     <div class="main-player-container" id="new" ref={props.reference}>
       <div class="player-container">
         <ReactPlayer
-          url="https://www.youtube.com/watch?v=ILND0weAVA8"
+          url= "https://www.youtube.com/watch?v=nCx8c53foBs"
           className="react-player"
           playing={false}
           controls={true}

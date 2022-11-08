@@ -31,7 +31,7 @@ export default function BasicTabs(props) {
 
   return (
     <Box className="MuiBox" >
-      <img src={`${isoLogo}`} alt="lslogo" class="lsologo"/>
+      <img src={`${isoLogo}`} alt="lslogo" class="lsologo"/> 
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs className="navBar"value={value} onChange={handleChange} aria-label="basic tabs example">
           <Tab onClick = {() => clickHandler(props.inicio)} label="Inicio" {...a11yProps(0)}></Tab>
