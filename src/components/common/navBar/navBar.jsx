@@ -7,6 +7,7 @@ import Box from '@mui/material/Box';
 import isoLogo from "../../../assets/Banner/Isologo.png"
 import "../navBar/navBar-style.css"
 
+
 function a11yProps(index) {
   return {
     id: `simple-tab-${index}`,
