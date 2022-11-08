@@ -52,7 +52,7 @@ export default function Footer(props) {
                 </Box>
                 </div>
                 </div>
-                <div class="links-container"><a><link rel="stylesheet" href="https://open.spotify.com/artist/5B5XqL4rO1jF2Y76LC0E7P" /><img src={spotify} alt= "Spotify" /></a></div>
+                <div class="links-container"><a><link rel="stylesheet" href="https://open.spotify.com/artist/5B5XqL4rO1jF2Y76LC0E7P" /><img src={spotify} alt= "Spotify" width={50}/></a></div>
             </footer>
         </>
     );
