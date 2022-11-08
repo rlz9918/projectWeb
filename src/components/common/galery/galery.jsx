@@ -15,9 +15,9 @@ export default function WovenImageList(props) {
   
   return (
     <div class='container-img-list' id='galery' ref={props.reference}>
-    <ImageList variant="masonry" cols={3} gap={8}>
+    <ImageList variant="masonry" sx={{display:"grid", gridTemplateRows:"repeat(3, 1fr)", gridTemplateColumns:"repeat(3, 1fr)", columnGap:"1em"}}>
       {itemData.map((item) => (
-        <ImageListItem key={item.img}>
+        <ImageListItem key={item.img} component='a' href={item.enlace}>
           <img
             src={`${item.img}?w=161&fit=crop&auto=format`}
             srcSet={`${item.img}?w=161&fit=crop&auto=format&dpr=2 2x`}
@@ -35,11 +35,11 @@ const itemData = [
   {
     img: igPost1 ,
     title: 'Bed',
-
   },
   {
     img: igPost2,
     title: 'Kitchen',
+    
   },
   {
     img: igPost3,
@@ -48,6 +48,7 @@ const itemData = [
   {
     img: igPost4,
     title: 'Books',
+    enlace: 'https://www.instagram.com/p/Ckhm87XNRl_/'
   },
   {
     img: igPost5,

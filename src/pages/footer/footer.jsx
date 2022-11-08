@@ -22,7 +22,7 @@ export default function Footer(props) {
         .then((response) => {toast.success('Se ha enviado con exito')})
         .catch((error) => {toast.error("Lo sentimos, ha ocurrido un error con el envio")})
 
-        event.target.reset()
+       setName("")
     }
     
     return (
