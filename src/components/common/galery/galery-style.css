@@ -1,10 +1,23 @@
 .container-img-list{
     display: flex;
     justify-content: center;
-    background-color: #121212;
+    background-color: #212529;
+    height: 50em;
+    width: 50em;
+    margin: auto;
 }
 
-.img-list{
-    width: 80%;
-    height: 45em;
+/* .img-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 1em;
+} */
+ul::-webkit-scrollbar{
+    background: #212529;
+    width: 7px;
+}
+ul::-webkit-scrollbar-thumb{
+    background: #626363;
+    border-radius: 40px;
 }

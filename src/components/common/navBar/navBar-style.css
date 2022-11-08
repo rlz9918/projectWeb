@@ -12,7 +12,13 @@
     align-items: center;
     background-color: #212529;
     z-index: 1;
+    filter: drop-shadow(
+        2px 2px 6px
+        #FAEA10
+    );
 }
+
+
 
 .navBar{
     margin: 0 1em;
