@@ -40,8 +40,9 @@ export default function Footer(props) {
                     autoComplete="off"
                     onSubmit={sendEmail}
                     ref={form}
+
                 >
-                    <TextField type="email" id="outlined-basic" label="Email" variant="outlined" name="to_person" value={name} onChange={handleChange}/>
+                    <TextField type="text" id="outlined-basic" label="Email" variant="outlined" name="to_person" value={name} onChange={handleChange} required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Please enter a valid email address"/>
                     <Button type="submit "className='MuiButtonBase' variant="outlined">Enviar</Button>
                 </Box>
                 </div>
