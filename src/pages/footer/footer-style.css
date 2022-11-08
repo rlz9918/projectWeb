@@ -57,9 +57,10 @@
 
 .form-style{
     display: flex;
-    flex-direction: column;
-    width: fit-content;
-    align-items: flex-start;
+    width: max-content;
+    align-items: center;
+    gap: 1em;
+    margin: auto;
 }
 
 @media screen and (max-width: 768px){
@@ -69,5 +70,9 @@
 
     .text-field{
         width: 100%;
+    }
+
+    .form-style{
+        flex-direction: column;
     }
 }
