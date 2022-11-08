@@ -40,15 +40,7 @@ export default function BasicTabs(props) {
           <Tab onClick = {() => clickHandler(props.newsLetter)} label="News Letter" {...a11yProps(3)} />
         </Tabs>
       </Box>
-      {/* <TabPanel value={value} index={0}>
-        Item One
-      </TabPanel>
-      <TabPanel value={value} index={1}>
-        Item Two
-      </TabPanel>
-      <TabPanel value={value} index={2}>
-        Item Three
-      </TabPanel> */}
     </Box>
   );
 }
+
