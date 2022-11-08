@@ -3,8 +3,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto 2em;
+    
     background-color: #212529;
+    background-image: url("../../assets/Banner/Image_81.png");
     
 }
 
@@ -13,10 +14,7 @@
     height: 55%;
     width: 55%;
     justify-content: center;
-    filter: drop-shadow(
-        8px 8px 10px
-        #FAEA10
-    );
+    
     background-color: #212529
     
 }

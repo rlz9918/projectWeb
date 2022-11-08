@@ -1,11 +1,12 @@
 .banner-container{
-    width: 100%
+    width: 100%;
+    height: 90%;
 }
 
 .banner{
     position: relative;
     width: inherit;
-    z-index: -1;
+    
 }
 
 .logo{

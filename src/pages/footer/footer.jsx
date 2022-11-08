@@ -6,6 +6,8 @@ import './footer-style.css'
 import { Typography } from '@mui/material';
 import newsLetter from '../../assets/Banner/Newsletter.png'
 import emailjs from '@emailjs/browser'
+import toast,{ Toaster } from "react-hot-toast";
+import spotify from '../../assets/Banner/spotify.png'
 export default function Footer(props) {
     const [name, setName] = React.useState('');
     const form = React.useRef();
@@ -17,14 +19,18 @@ export default function Footer(props) {
         event.preventDefault()
         //'SERVICE_ID' 'TEMPLATE_ID' event.target 'publickey'
         emailjs.sendForm("gmail_message", "template_b3j0o2g", form.current, "uHyB5gHqZfLCxNIFp")
-        .then((response) => {alert("mensaje enviado con exito")})
-        .catch((error) => {alert("Lo sentimos a ocurrido un error con el envio")})
+        .then((response) => {toast.success('Se ha enviado con exito')})
+        .catch((error) => {toast.error("Lo sentimos, ha ocurrido un error con el envio")})
 
         event.target.reset()
     }
     
     return (
-        <>
+        <>  
+            <Toaster
+                position="top-center"
+                reverseOrder={false}
+            />
             <footer class='footer' id='newsLetter' ref={props.reference}>
                 <div class="footer-content-container">
                 <img src={`${newsLetter}`} alt='news-letter' class='newsLetter'></img>
@@ -46,6 +52,7 @@ export default function Footer(props) {
                 </Box>
                 </div>
                 </div>
+                <div class="links-container"><a><link rel="stylesheet" href="https://open.spotify.com/artist/5B5XqL4rO1jF2Y76LC0E7P" /><img src={spotify} alt= "Spotify" /></a></div>
             </footer>
         </>
     );
