@@ -15,7 +15,7 @@ export default function WovenImageList(props) {
   
   return (
     <div class='container-img-list' id='galery' ref={props.reference}>
-    <ImageList sx={{ width: '80%', height: '45em' }} variant="woven" cols={3} gap={8}>
+    <ImageList variant="masonry" cols={3} gap={8}>
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
           <img
