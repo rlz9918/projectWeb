@@ -1,0 +1,20 @@
+.main-player-container{
+    height: 60em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #212529;
+    background-image: url("../../assets/Banner/Image_81.png");
+    
+}
+
+.player-container{
+    display: flex;
+    height: 55%;
+    width: 55%;
+    justify-content: center;
+    
+    background-color: #212529
+    
+}
