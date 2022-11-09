@@ -11,10 +11,12 @@ import igPost6 from "../../../assets/Banner/InstagramPost_10.png"
 import igPost7 from "../../../assets/Banner/Album_A_mi_lado.png"
 import igPost8 from "../../../assets/Banner/Album_Desiguales.png"
 import igPost9 from "../../../assets/Banner/Album_Por_un_momento(1).png"
+import discografia from "../../../assets/Banner/discografia.png"
 export default function WovenImageList(props) {
   
   return (
     <div class='container-img-list' id='galery' ref={props.reference}>
+      <img src={discografia} alt="discografia" class='discografia-img'/>
     <ImageList variant="masonry" sx={{display:"grid", gridTemplateRows:"repeat(3, 1fr)", gridTemplateColumns:"repeat(3, 1fr)", columnGap:"1em"}}>
       {itemData.map((item) => (
         <ImageListItem key={item.img} component='a' href={item.enlace}>
@@ -57,6 +59,7 @@ const itemData = [
   {
     img: igPost6,
     title: 'Candle',
+    enlace: "https://www.instagram.com/p/Ckhmmc3t2wj/"
   },
   {
     img: igPost7,
@@ -69,6 +72,7 @@ const itemData = [
   {
     img: igPost9,
     title: 'Coffee',
+    enlace: "https://www.instagram.com/p/CkhCnXGpJHn/"
   },
   
 ];

@@ -5,6 +5,8 @@
     height: 60em;
     width: 80%;
     margin: auto;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* .img-list{
@@ -22,9 +24,20 @@ ul::-webkit-scrollbar-thumb{
     border-radius: 40px;
 }
 
+.discografia-img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1em;
+    margin: 3em 0;
+}
+
 @media screen and (max-width: 768px){
     .container-img-list{
         width: auto;
         height: auto;
+    }
+
+    .biblo-img{
+        width: 100%;
     }
 }

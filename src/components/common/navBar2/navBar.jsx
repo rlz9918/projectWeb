@@ -20,7 +20,8 @@ export default function ResponsiveAppBar(props) {
   const pages = [
         {name:"Inicio", ref:props.inicio}, 
         {name:"Galeria", ref:props.galeryRef},
-        {name: "New", ref:props.newContent}, 
+        {name: "New", ref:props.newContent},
+        {name: "Acerca de", ref:props.aboutMe}, 
         {name: "News Letter", ref:props.newsLetter}
     ];
 
@@ -61,7 +62,7 @@ export default function ResponsiveAppBar(props) {
               textDecoration: "none"
             }}
           >
-            LOGO
+            REST DEEP
           </Typography>
 
           <Box
