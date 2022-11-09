@@ -57,6 +57,7 @@ const itemData = [
   {
     img: igPost6,
     title: 'Candle',
+    enlace: "https://www.instagram.com/p/Ckhmmc3t2wj/"
   },
   {
     img: igPost7,
@@ -69,6 +70,7 @@ const itemData = [
   {
     img: igPost9,
     title: 'Coffee',
+    enlace: "https://www.instagram.com/p/CkhCnXGpJHn/"
   },
   
 ];

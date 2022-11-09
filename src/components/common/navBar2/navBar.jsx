@@ -61,7 +61,7 @@ export default function ResponsiveAppBar(props) {
               textDecoration: "none"
             }}
           >
-            LOGO
+            REST DEEP
           </Typography>
 
           <Box

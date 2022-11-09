@@ -7,11 +7,12 @@ import { Typography } from '@mui/material';
 import newsLetter from '../../assets/Banner/Newsletter.png'
 import emailjs from '@emailjs/browser'
 import toast,{ Toaster } from "react-hot-toast";
-import Spotify from '../../assets/Banner/spotify.png'
-import Facebook from '../../assets/Banner/facebook.png'
-import Instagram from '../../assets/Banner/instagram.png'
-import Youtube from '../../assets/Banner/youtube.png'
-import TikTok from '../../assets/Banner/tik-tok.png'
+import Spotify from '../../assets/Banner/Spotify-8.png'
+import Facebook from '../../assets/Banner/Facebook-8.png'
+import Instagram from '../../assets/Banner/Instagram-8.png'
+import Youtube from '../../assets/Banner/Youtube-8.png'
+import TikTok from '../../assets/Banner/Tiktok-8.png'
+
 export default function Footer(props) {
     const [name, setName] = React.useState('');
     const form = React.useRef();

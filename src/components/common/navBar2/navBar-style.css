@@ -24,4 +24,8 @@
 .AppBar{
     position: sticky;
     background-color: #212529 !important;
+    filter: drop-shadow(
+        1px 1px 6px
+        #FAEA10
+    );
 }
