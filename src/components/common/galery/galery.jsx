@@ -50,7 +50,7 @@ const itemData = [
   {
     img: igPost1,
     title: "Bed",
-    enlace: "https://www.tiktok.com/@restdeeppf/video/7166372414505389317?_d=secCgYIASAHKAESPgo8TI%2B7zavV2fyRRKQwEUd0h9r%2B9Hxiak54yAH5hifEVLj5VZXlSNJ%2F%2FH0u9G6ysl5GxlmdI5RnqVsm0KnjGgA%3D&_r=1&checksum=6f13c99bcd2ba06ffc468cf6077ea87cd2a159e5e0f6abb8d8dd6a402d4b5bb0&is_from_webapp=v1&item_id=7166372414505389317&language=es&preview_pb=0&sec_user_id=MS4wLjABAAAA1Ntugr_s6-z6kWvAbo5eTNA3lyZcSa5uoZso9k7MJ_fDpiu7JzX4kPPNLIkmd9v0&share_app_id=1233&share_item_id=7166372414505389317&share_link_id=ebe75179-0e1f-486f-9712-3d2a2bb371a6&source=h5_m&timestamp=1668691670&u_code=e4iiegkidke29d&user_id=7162090357646541829&utm_campaign=client_share&utm_medium=android&utm_source=copy",
+    enlace: "https://www.tiktok.com/@restdeeppf/video/7164513602110590214?is_copy_url=1&is_from_webapp=v1&lang=es",
   },
   {
     img: igPost2,
